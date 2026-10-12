@@ -1,0 +1,12 @@
+{
+  "name": "langmail",
+  "description": "Rules for handling emails, calendar appointments, and contacts in langmail",
+  "version": "1.0.0",
+  "author": {
+    "name": "langmail",
+    "email": "info@langmail.me"
+  },
+  "repository": "https://github.com/langmail/skills",
+  "license": "MIT",
+  "keywords": ["langmail", "email", "calendar", "contacts", "mcp"]
+}

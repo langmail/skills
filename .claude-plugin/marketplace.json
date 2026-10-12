@@ -1,0 +1,32 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "skills",
+  "owner": {
+    "name": "langmail",
+    "email": "info@langmail.me"
+  },
+  "metadata": {
+    "description": "AI agent skills from langmail",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "langmail",
+      "description": "Rules for handling emails, calendar appointments, and contacts in langmail",
+      "version": "1.0.0",
+      "author": {
+        "name": "langmail",
+        "email": "info@langmail.me"
+      },
+      "source": "./plugins/langmail",
+      "category": "productivity",
+      "keywords": [
+        "langmail",
+        "email",
+        "calendar",
+        "contacts",
+        "mcp"
+      ]
+    }
+  ]
+}
